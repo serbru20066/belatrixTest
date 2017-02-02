@@ -13,6 +13,9 @@
 		331B487C1E437B3600DCA5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331B487A1E437B3600DCA5B4 /* Main.storyboard */; };
 		331B487E1E437B3600DCA5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331B487D1E437B3600DCA5B4 /* Assets.xcassets */; };
 		331B48811E437B3600DCA5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331B487F1E437B3600DCA5B4 /* LaunchScreen.storyboard */; };
+		331B488A1E43970B00DCA5B4 /* eventTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B48891E43970B00DCA5B4 /* eventTVC.m */; };
+		331B488E1E439CA500DCA5B4 /* eventDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B488D1E439CA500DCA5B4 /* eventDetailVC.m */; };
+		331B48941E43CE8400DCA5B4 /* newEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B48931E43CE8400DCA5B4 /* newEventVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		331B487D1E437B3600DCA5B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		331B48801E437B3600DCA5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		331B48821E437B3600DCA5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331B48881E43970B00DCA5B4 /* eventTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventTVC.h; sourceTree = "<group>"; };
+		331B48891E43970B00DCA5B4 /* eventTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eventTVC.m; sourceTree = "<group>"; };
+		331B488C1E439CA500DCA5B4 /* eventDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventDetailVC.h; sourceTree = "<group>"; };
+		331B488D1E439CA500DCA5B4 /* eventDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eventDetailVC.m; sourceTree = "<group>"; };
+		331B48921E43CE8400DCA5B4 /* newEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newEventVC.h; sourceTree = "<group>"; };
+		331B48931E43CE8400DCA5B4 /* newEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newEventVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,7 @@
 		331B48651E437B3600DCA5B4 = {
 			isa = PBXGroup;
 			children = (
+				331B488B1E43970F00DCA5B4 /* CustomViews */,
 				331B48701E437B3600DCA5B4 /* pruebaTecnicaBelatrix */,
 				331B486F1E437B3600DCA5B4 /* Products */,
 			);
@@ -62,6 +72,10 @@
 				331B48751E437B3600DCA5B4 /* AppDelegate.m */,
 				331B48771E437B3600DCA5B4 /* ViewController.h */,
 				331B48781E437B3600DCA5B4 /* ViewController.m */,
+				331B488C1E439CA500DCA5B4 /* eventDetailVC.h */,
+				331B488D1E439CA500DCA5B4 /* eventDetailVC.m */,
+				331B48921E43CE8400DCA5B4 /* newEventVC.h */,
+				331B48931E43CE8400DCA5B4 /* newEventVC.m */,
 				331B487A1E437B3600DCA5B4 /* Main.storyboard */,
 				331B487D1E437B3600DCA5B4 /* Assets.xcassets */,
 				331B487F1E437B3600DCA5B4 /* LaunchScreen.storyboard */,
@@ -77,6 +91,15 @@
 				331B48721E437B3600DCA5B4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		331B488B1E43970F00DCA5B4 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				331B48881E43970B00DCA5B4 /* eventTVC.h */,
+				331B48891E43970B00DCA5B4 /* eventTVC.m */,
+			);
+			name = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331B48941E43CE8400DCA5B4 /* newEventVC.m in Sources */,
+				331B488A1E43970B00DCA5B4 /* eventTVC.m in Sources */,
 				331B48791E437B3600DCA5B4 /* ViewController.m in Sources */,
+				331B488E1E439CA500DCA5B4 /* eventDetailVC.m in Sources */,
 				331B48761E437B3600DCA5B4 /* AppDelegate.m in Sources */,
 				331B48731E437B3600DCA5B4 /* main.m in Sources */,
 			);

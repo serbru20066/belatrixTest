@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  eventDetailVC.h
 //  pruebaTecnicaBelatrix
 //
 //  Created by LTSSetup on 2/2/17.
@@ -8,15 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-{
-
-    
-    NSMutableArray *arrToday ;
-    NSMutableArray *arrNext;
-
-
-}
+@interface eventDetailVC : UIViewController
 
 @end
-
